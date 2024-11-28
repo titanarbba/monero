@@ -1,0 +1,16 @@
+cd monero-x86_64-linux-gnu-v0.18.3.4
+./monero-wallet-cli --restore-from-seed
+
+// private key
+ruby together being byline ultimate acoustic adhesive cistern beyond ethics otter simplest fictional nucleus bluntly skirting fossil meant italics january lids hatchet album auburn skirting
+
+// starting point of the node
+2024-07-24
+
+//start the miner
+start_mining 7 false
+
+// show the hasrate
+tmux
+cd monero-x86_64-linux-gnu-v0.18.3.4
+./monerod show_hr
