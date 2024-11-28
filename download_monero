@@ -1,0 +1,7 @@
+cd monero-x86_64-linux-gnu-v0.18.3.4
+./monerod --prune-blockchain
+
+  //OR
+
+  cd monero-x86_64-linux-gnu-v0.18.3.4
+./monerod
