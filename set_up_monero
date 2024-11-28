@@ -1,0 +1,7 @@
+wget "https://downloads.getmonero.org/cli/linux64"
+wget -O binaryfate.asc https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/binaryfate.asc
+gpg --keyid-format long --with-fingerprint binaryfate.asc
+gpg --import binaryfate.asc
+wget -O hashes.txt https://www.getmonero.org/downloads/hashes.txt
+gpg --verify hashes.txt
+tar -xf linux64
